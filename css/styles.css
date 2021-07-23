@@ -1,0 +1,233 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --primary-white-color: #fff;
+}
+
+body {
+  background-color: var(--primary-white-color);
+  font-family: "Roboto", sans-serif;
+  color: var(--primary-text-color);
+}
+
+/*Хедер, шапка страницы*/
+
+.logo > span {
+  color: var(--accent-color);
+}
+
+.footer.logo {
+  color: #fff;
+}
+
+.logo {
+  color: #000;
+  text-decoration: none;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo.dark {
+  color: var(--primary-white-color);
+}
+
+.site-nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+
+  color: var(--primary-text-color);
+}
+
+.current {
+  color: var(--accent-color);
+}
+
+.grey {
+  background-color: #f5f4fa;
+}
+.aside-link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+
+.site-nav-link:hover,
+.site-nav-link:focus,
+.aside-link:hover,
+.aside-link:focus,
+.footer-link:focus,
+.footer-link:hover {
+  color: var(--accent-color);
+}
+
+/*Портфолио*/
+
+.portfolio {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.portfolio-nav-button > button:hover,
+.portfolio-nav-button > button:focus {
+  color: white;
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+
+.button-filter {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border: 0;
+  border-radius: 4px;
+  color: var(--primary-text-color);
+}
+
+.items {
+  list-style: none;
+}
+
+.portfolio-item:focus,
+.portfolio-item:hover {
+  background-color: #eee;
+}
+
+.subtitle {
+  color: var(--primary-text-color);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.text {
+  color: var(--secondary-text-color);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
+.portfolio-link {
+  text-decoration: none;
+}
+.button {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  background-color: #f5f4fa;
+  color: var(--primary-text-color);
+}
+
+.hidden-title {
+  color: #fff;
+  background-color: #fff;
+}
+
+/*Футтер*/
+
+.footer {
+  background: #2f303a;
+}
+
+.footer-link {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
+  font-style: normal;
+}
+.footer-address {
+  color: #fff;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
+  font-style: normal;
+}
+
+/*Главная страница*/
+.title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  color: #fff;
+  text-transform: uppercase;
+}
+.banner {
+  background: #2f303a;
+  text-align: center;
+}
+.features-subtitle {
+  color: var(--primary-text-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.features-text {
+  color: var(--secondary-text-color);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.subject {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  color: var(--primary-text-color);
+}
+
+.our-team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--primary-text-color);
+}
+
+.our-team-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--secondary-text-color);
+}
+
+.banner > button {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
+  color: #fff;
+  background-color: #188ce8;
+}
+
+.banner > button:focus,
+.banner > button:hover {
+  color: var(--primary-white-color);
+  cursor: pointer;
+  background-color: var(--accent-color);
+}
